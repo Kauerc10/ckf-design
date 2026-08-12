@@ -71,6 +71,15 @@ A branch `main` recebe mudanças exclusivamente por pull request.
 
 As regras completas estão em [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Documentação e suporte
+
+- [Guia do repositório](docs/REPOSITORY_GUIDE.md) — organização, Git LFS e fluxo das entregas.
+- [Como contribuir](CONTRIBUTING.md) — branches, commits e pull requests.
+- [Código de conduta](CODE_OF_CONDUCT.md) — regras de convivência e colaboração.
+- [Segurança](SECURITY.md) — reporte responsável de credenciais, assets e materiais sensíveis.
+- [Suporte](SUPPORT.md) — canal adequado para dúvidas e solicitações.
+- [Termos de uso](LICENSE.md) — direitos sobre a marca e os materiais.
+
 ## Arquivos grandes
 
 Imagens, PDFs, fontes, vídeos e arquivos nativos de design são armazenados com [Git LFS](https://git-lfs.com/). Antes de clonar este repositório, instale e habilite o Git LFS:
