@@ -38,6 +38,10 @@ Verifique a integridade local com:
 git lfs fsck
 ```
 
+## Automação
+
+A verificação do repositório confirma os documentos obrigatórios, a configuração de Git LFS, a referência do banner oficial, marcadores de conflito e segredos versionados. Ela roda em pull requests e alterações na `main`, sem build ou etapas que não façam sentido para um repositório de assets.
+
 ## Banner de fachada atual
 
 A entrega aprovada está em `11_Entregas_Aprovadas/2026_Banner_Fachada_CKF`. O arquivo prioritário para produção é `ckf-manutencao_banner-fachada-oficial.svg`; as medidas, orientações de escala e cuidados de gráfica estão em `INSTRUCOES_PARA_GRAFICA.md` na mesma pasta.
