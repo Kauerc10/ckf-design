@@ -1,0 +1,302 @@
+{
+  "project": "CKF — Banner de Fachada Modular",
+  "finalSizeMm": {
+    "width": 10500,
+    "height": 1500
+  },
+  "ratio": "7:1",
+  "colors": {
+    "black": "#090c0d",
+    "black2": "#111517",
+    "graphite": "#202527",
+    "yellow": "#f6b900",
+    "yellow2": "#ffd33d",
+    "white": "#f7f7f4",
+    "muted": "#cfd2d1"
+  },
+  "copy": {
+    "title": "SOLUÇÕES EM MANUTENÇÃO GERAL",
+    "phones": [
+      "(47) 99121-4232",
+      "(47) 99913-0409"
+    ],
+    "specialties": [
+      {
+        "slug": "caminhoes-maquinas-pesadas",
+        "lines": [
+          "CAMINHÕES E",
+          "MÁQUINAS PESADAS"
+        ],
+        "icon": "machines"
+      },
+      {
+        "slug": "central-concreto",
+        "lines": [
+          "CENTRAL DE",
+          "CONCRETO"
+        ],
+        "icon": "concrete"
+      },
+      {
+        "slug": "reforma-equipamentos-chassis",
+        "lines": [
+          "REFORMA DE",
+          "EQUIPAMENTOS",
+          "E CHASSIS"
+        ],
+        "icon": "reform"
+      },
+      {
+        "slug": "estruturas-metalicas",
+        "lines": [
+          "ESTRUTURAS",
+          "METÁLICAS"
+        ],
+        "icon": "structure"
+      }
+    ],
+    "services": [
+      {
+        "label": "SUSPENSÃO",
+        "color": "#f6b900"
+      },
+      {
+        "label": "SOLDA",
+        "color": "#f6b900"
+      },
+      {
+        "label": "PREVENTIVA",
+        "color": "#f6b900"
+      },
+      {
+        "label": "FREIOS",
+        "color": "#f7f7f4"
+      },
+      {
+        "label": "HIDRÁULICA",
+        "color": "#f7f7f4"
+      },
+      {
+        "label": "REFORMA",
+        "color": "#f6b900"
+      },
+      {
+        "label": "PINTURA",
+        "color": "#f6b900"
+      },
+      {
+        "label": "EMBREAGEM",
+        "color": "#f6b900"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "name": "logo-ckf-oficial-transparente",
+      "svg": "01_assets_transparentes\\logo-ckf-oficial-transparente.svg",
+      "png": "01_assets_transparentes\\logo-ckf-oficial-transparente.png",
+      "viewBox": "3600x1119",
+      "transparent": true,
+      "note": "SVG com PNG oficial incorporado; não é vetorização em curvas."
+    },
+    {
+      "name": "icone-whatsapp-amarelo",
+      "svg": "01_assets_transparentes\\icone-whatsapp-amarelo.svg",
+      "png": "01_assets_transparentes\\icone-whatsapp-amarelo.png",
+      "viewBox": "240x200",
+      "transparent": true
+    },
+    {
+      "name": "icone-caminhoes-maquinas-pesadas",
+      "svg": "01_assets_transparentes\\icone-caminhoes-maquinas-pesadas.svg",
+      "png": "01_assets_transparentes\\icone-caminhoes-maquinas-pesadas.png",
+      "viewBox": "220x180",
+      "transparent": true
+    },
+    {
+      "name": "icone-central-concreto",
+      "svg": "01_assets_transparentes\\icone-central-concreto.svg",
+      "png": "01_assets_transparentes\\icone-central-concreto.png",
+      "viewBox": "220x180",
+      "transparent": true
+    },
+    {
+      "name": "icone-reforma-equipamentos",
+      "svg": "01_assets_transparentes\\icone-reforma-equipamentos.svg",
+      "png": "01_assets_transparentes\\icone-reforma-equipamentos.png",
+      "viewBox": "220x180",
+      "transparent": true
+    },
+    {
+      "name": "icone-estruturas-metalicas",
+      "svg": "01_assets_transparentes\\icone-estruturas-metalicas.svg",
+      "png": "01_assets_transparentes\\icone-estruturas-metalicas.png",
+      "viewBox": "220x180",
+      "transparent": true
+    },
+    {
+      "name": "texto-titulo-solucoes-manutencao-geral",
+      "svg": "01_assets_transparentes\\texto-titulo-solucoes-manutencao-geral.svg",
+      "png": "01_assets_transparentes\\texto-titulo-solucoes-manutencao-geral.png",
+      "viewBox": "3900x300",
+      "transparent": true
+    },
+    {
+      "name": "texto-contato-01",
+      "svg": "01_assets_transparentes\\texto-contato-01.svg",
+      "png": "01_assets_transparentes\\texto-contato-01.png",
+      "viewBox": "1700x230",
+      "transparent": true
+    },
+    {
+      "name": "texto-contato-02",
+      "svg": "01_assets_transparentes\\texto-contato-02.svg",
+      "png": "01_assets_transparentes\\texto-contato-02.png",
+      "viewBox": "1700x230",
+      "transparent": true
+    },
+    {
+      "name": "bloco-contatos-whatsapp",
+      "svg": "01_assets_transparentes\\bloco-contatos-whatsapp.svg",
+      "png": "01_assets_transparentes\\bloco-contatos-whatsapp.png",
+      "viewBox": "2700x600",
+      "transparent": true
+    },
+    {
+      "name": "especialidade-01-caminhoes-maquinas-pesadas",
+      "svg": "01_assets_transparentes\\especialidade-01-caminhoes-maquinas-pesadas.svg",
+      "png": "01_assets_transparentes\\especialidade-01-caminhoes-maquinas-pesadas.png",
+      "viewBox": "1800x620",
+      "transparent": true
+    },
+    {
+      "name": "texto-especialidade-01-caminhoes-maquinas-pesadas",
+      "svg": "01_assets_transparentes\\texto-especialidade-01-caminhoes-maquinas-pesadas.svg",
+      "png": "01_assets_transparentes\\texto-especialidade-01-caminhoes-maquinas-pesadas.png",
+      "viewBox": "1420x520",
+      "transparent": true
+    },
+    {
+      "name": "especialidade-02-central-concreto",
+      "svg": "01_assets_transparentes\\especialidade-02-central-concreto.svg",
+      "png": "01_assets_transparentes\\especialidade-02-central-concreto.png",
+      "viewBox": "1800x620",
+      "transparent": true
+    },
+    {
+      "name": "texto-especialidade-02-central-concreto",
+      "svg": "01_assets_transparentes\\texto-especialidade-02-central-concreto.svg",
+      "png": "01_assets_transparentes\\texto-especialidade-02-central-concreto.png",
+      "viewBox": "1420x520",
+      "transparent": true
+    },
+    {
+      "name": "especialidade-03-reforma-equipamentos-chassis",
+      "svg": "01_assets_transparentes\\especialidade-03-reforma-equipamentos-chassis.svg",
+      "png": "01_assets_transparentes\\especialidade-03-reforma-equipamentos-chassis.png",
+      "viewBox": "1800x620",
+      "transparent": true
+    },
+    {
+      "name": "texto-especialidade-03-reforma-equipamentos-chassis",
+      "svg": "01_assets_transparentes\\texto-especialidade-03-reforma-equipamentos-chassis.svg",
+      "png": "01_assets_transparentes\\texto-especialidade-03-reforma-equipamentos-chassis.png",
+      "viewBox": "1420x520",
+      "transparent": true
+    },
+    {
+      "name": "especialidade-04-estruturas-metalicas",
+      "svg": "01_assets_transparentes\\especialidade-04-estruturas-metalicas.svg",
+      "png": "01_assets_transparentes\\especialidade-04-estruturas-metalicas.png",
+      "viewBox": "1800x620",
+      "transparent": true
+    },
+    {
+      "name": "texto-especialidade-04-estruturas-metalicas",
+      "svg": "01_assets_transparentes\\texto-especialidade-04-estruturas-metalicas.svg",
+      "png": "01_assets_transparentes\\texto-especialidade-04-estruturas-metalicas.png",
+      "viewBox": "1420x520",
+      "transparent": true
+    },
+    {
+      "name": "servico-01-suspensao",
+      "svg": "01_assets_transparentes\\servico-01-suspensao.svg",
+      "png": "01_assets_transparentes\\servico-01-suspensao.png",
+      "viewBox": "720x170",
+      "transparent": true
+    },
+    {
+      "name": "servico-02-solda",
+      "svg": "01_assets_transparentes\\servico-02-solda.svg",
+      "png": "01_assets_transparentes\\servico-02-solda.png",
+      "viewBox": "720x170",
+      "transparent": true
+    },
+    {
+      "name": "servico-03-preventiva",
+      "svg": "01_assets_transparentes\\servico-03-preventiva.svg",
+      "png": "01_assets_transparentes\\servico-03-preventiva.png",
+      "viewBox": "720x170",
+      "transparent": true
+    },
+    {
+      "name": "servico-04-freios",
+      "svg": "01_assets_transparentes\\servico-04-freios.svg",
+      "png": "01_assets_transparentes\\servico-04-freios.png",
+      "viewBox": "720x170",
+      "transparent": true
+    },
+    {
+      "name": "servico-05-hidraulica",
+      "svg": "01_assets_transparentes\\servico-05-hidraulica.svg",
+      "png": "01_assets_transparentes\\servico-05-hidraulica.png",
+      "viewBox": "720x170",
+      "transparent": true
+    },
+    {
+      "name": "servico-06-reforma",
+      "svg": "01_assets_transparentes\\servico-06-reforma.svg",
+      "png": "01_assets_transparentes\\servico-06-reforma.png",
+      "viewBox": "720x170",
+      "transparent": true
+    },
+    {
+      "name": "servico-07-pintura",
+      "svg": "01_assets_transparentes\\servico-07-pintura.svg",
+      "png": "01_assets_transparentes\\servico-07-pintura.png",
+      "viewBox": "720x170",
+      "transparent": true
+    },
+    {
+      "name": "servico-08-embreagem",
+      "svg": "01_assets_transparentes\\servico-08-embreagem.svg",
+      "png": "01_assets_transparentes\\servico-08-embreagem.png",
+      "viewBox": "720x170",
+      "transparent": true
+    },
+    {
+      "name": "faixa-servicos-completa",
+      "svg": "01_assets_transparentes\\faixa-servicos-completa.svg",
+      "png": "01_assets_transparentes\\faixa-servicos-completa.png",
+      "viewBox": "5000x165",
+      "transparent": true
+    },
+    {
+      "name": "divisor-angular-amarelo",
+      "svg": "01_assets_transparentes\\divisor-angular-amarelo.svg",
+      "png": "01_assets_transparentes\\divisor-angular-amarelo.png",
+      "viewBox": "230x1500",
+      "transparent": true
+    }
+  ],
+  "layouts": {
+    "draftV1": {
+      "svg": "02_previews\\rascunhos\\ckf-banner-modular-layout-v01-escala-1-10.svg",
+      "png": "02_previews\\rascunhos\\ckf-banner-modular-layout-v01-7000x1000.png"
+    },
+    "refinedV2": {
+      "svg": "04_exportacoes\\ckf-banner-modular-layout-v02-refinado-escala-1-10.svg",
+      "png": "04_exportacoes\\ckf-banner-modular-layout-v02-refinado-7000x1000.png"
+    }
+  }
+}

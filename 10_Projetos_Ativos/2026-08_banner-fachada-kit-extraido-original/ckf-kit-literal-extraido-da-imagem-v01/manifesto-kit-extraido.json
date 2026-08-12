@@ -1,0 +1,846 @@
+{
+  "project": "CKF — Kit literal extraído do banner aprovado",
+  "source": "00_fonte_original\\banner-fonte-original.png",
+  "source_size": [
+    1918,
+    820
+  ],
+  "final_banner_size_mm": [
+    10500,
+    1500
+  ],
+  "ratio": "7:1",
+  "method": "Recortes de pixels + remoção determinística do fundo escuro + SVG autocontido por base64.",
+  "important": "Os SVGs não são vetorização em curvas; incorporam o PNG transparente para preservar o desenho exato.",
+  "assets": [
+    {
+      "name": "logo-completa",
+      "label": "Logo CKF completa",
+      "category": "marca",
+      "box": [
+        43,
+        123,
+        742,
+        384
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\logo-completa.png",
+      "png_4x": "02_png_transparente_4x\\logo-completa-4x.png",
+      "svg": "03_svg_autocontido\\logo-completa.svg",
+      "size_1x": [
+        709,
+        270
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "logo-simbolo",
+      "label": "Símbolo CKF",
+      "category": "marca",
+      "box": [
+        43,
+        123,
+        324,
+        384
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\logo-simbolo.png",
+      "png_4x": "02_png_transparente_4x\\logo-simbolo-4x.png",
+      "svg": "03_svg_autocontido\\logo-simbolo.svg",
+      "size_1x": [
+        294,
+        270
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "logo-tipografia",
+      "label": "CKF + Manutenção",
+      "category": "marca",
+      "box": [
+        326,
+        151,
+        742,
+        374
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\logo-tipografia.png",
+      "png_4x": "02_png_transparente_4x\\logo-tipografia-4x.png",
+      "svg": "03_svg_autocontido\\logo-tipografia.svg",
+      "size_1x": [
+        421,
+        233
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "logo-sigla-ckf",
+      "label": "Sigla CKF",
+      "category": "marca",
+      "box": [
+        326,
+        151,
+        742,
+        317
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\logo-sigla-ckf.png",
+      "png_4x": "02_png_transparente_4x\\logo-sigla-ckf-4x.png",
+      "svg": "03_svg_autocontido\\logo-sigla-ckf.svg",
+      "size_1x": [
+        421,
+        163
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "logo-texto-manutencao",
+      "label": "Texto Manutenção",
+      "category": "marca",
+      "box": [
+        326,
+        315,
+        742,
+        377
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\logo-texto-manutencao.png",
+      "png_4x": "02_png_transparente_4x\\logo-texto-manutencao-4x.png",
+      "svg": "03_svg_autocontido\\logo-texto-manutencao.svg",
+      "size_1x": [
+        419,
+        81
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "whatsapp-icone",
+      "label": "Ícone WhatsApp",
+      "category": "contatos",
+      "box": [
+        68,
+        486,
+        196,
+        620
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\whatsapp-icone.png",
+      "png_4x": "02_png_transparente_4x\\whatsapp-icone-4x.png",
+      "svg": "03_svg_autocontido\\whatsapp-icone.svg",
+      "size_1x": [
+        133,
+        137
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "telefone-01",
+      "label": "(47) 99121-4232",
+      "category": "contatos",
+      "box": [
+        232,
+        476,
+        727,
+        563
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\telefone-01.png",
+      "png_4x": "02_png_transparente_4x\\telefone-01-4x.png",
+      "svg": "03_svg_autocontido\\telefone-01.svg",
+      "size_1x": [
+        494,
+        95
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "telefone-02",
+      "label": "(47) 99913-0409",
+      "category": "contatos",
+      "box": [
+        232,
+        572,
+        727,
+        661
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\telefone-02.png",
+      "png_4x": "02_png_transparente_4x\\telefone-02-4x.png",
+      "svg": "03_svg_autocontido\\telefone-02.svg",
+      "size_1x": [
+        494,
+        95
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "contatos-bloco",
+      "label": "WhatsApp e dois telefones",
+      "category": "contatos",
+      "box": [
+        68,
+        476,
+        727,
+        661
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\contatos-bloco.png",
+      "png_4x": "02_png_transparente_4x\\contatos-bloco-4x.png",
+      "svg": "03_svg_autocontido\\contatos-bloco.svg",
+      "size_1x": [
+        661,
+        191
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "marca-e-contatos-bloco",
+      "label": "Marca e contatos",
+      "category": "blocos",
+      "box": [
+        43,
+        123,
+        742,
+        661
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\marca-e-contatos-bloco.png",
+      "png_4x": "02_png_transparente_4x\\marca-e-contatos-bloco-4x.png",
+      "svg": "03_svg_autocontido\\marca-e-contatos-bloco.svg",
+      "size_1x": [
+        709,
+        546
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "titulo-solucoes-manutencao-geral",
+      "label": "Soluções em Manutenção Geral",
+      "category": "titulo",
+      "box": [
+        846,
+        111,
+        1867,
+        205
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\titulo-solucoes-manutencao-geral.png",
+      "png_4x": "02_png_transparente_4x\\titulo-solucoes-manutencao-geral-4x.png",
+      "svg": "03_svg_autocontido\\titulo-solucoes-manutencao-geral.svg",
+      "size_1x": [
+        1022,
+        111
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-01-icone",
+      "label": "Ícone caminhões e máquinas pesadas",
+      "category": "especialidades",
+      "box": [
+        833,
+        233,
+        1023,
+        416
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-01-icone.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-01-icone-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-01-icone.svg",
+      "size_1x": [
+        194,
+        189
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-01-texto",
+      "label": "Caminhões e máquinas pesadas",
+      "category": "especialidades",
+      "box": [
+        1048,
+        236,
+        1303,
+        412
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-01-texto.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-01-texto-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-01-texto.svg",
+      "size_1x": [
+        244,
+        186
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-01-bloco",
+      "label": "Bloco caminhões e máquinas pesadas",
+      "category": "blocos",
+      "box": [
+        830,
+        231,
+        1305,
+        418
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-01-bloco.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-01-bloco-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-01-bloco.svg",
+      "size_1x": [
+        463,
+        190
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-02-icone",
+      "label": "Ícone central de concreto",
+      "category": "especialidades",
+      "box": [
+        1387,
+        230,
+        1562,
+        419
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-02-icone.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-02-icone-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-02-icone.svg",
+      "size_1x": [
+        172,
+        190
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-02-texto",
+      "label": "Central de concreto",
+      "category": "especialidades",
+      "box": [
+        1581,
+        276,
+        1857,
+        397
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-02-texto.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-02-texto-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-02-texto.svg",
+      "size_1x": [
+        257,
+        124
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-02-bloco",
+      "label": "Bloco central de concreto",
+      "category": "blocos",
+      "box": [
+        1384,
+        228,
+        1859,
+        421
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-02-bloco.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-02-bloco-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-02-bloco.svg",
+      "size_1x": [
+        455,
+        190
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-03-icone",
+      "label": "Ícone reforma de equipamentos",
+      "category": "especialidades",
+      "box": [
+        833,
+        465,
+        1014,
+        640
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-03-icone.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-03-icone-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-03-icone.svg",
+      "size_1x": [
+        166,
+        177
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-03-texto",
+      "label": "Reforma de equipamentos e chassis",
+      "category": "especialidades",
+      "box": [
+        1041,
+        470,
+        1302,
+        640
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-03-texto.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-03-texto-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-03-texto.svg",
+      "size_1x": [
+        263,
+        157
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-03-bloco",
+      "label": "Bloco reforma de equipamentos e chassis",
+      "category": "blocos",
+      "box": [
+        830,
+        462,
+        1305,
+        642
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-03-bloco.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-03-bloco-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-03-bloco.svg",
+      "size_1x": [
+        474,
+        177
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-04-icone",
+      "label": "Ícone estruturas metálicas",
+      "category": "especialidades",
+      "box": [
+        1387,
+        474,
+        1565,
+        642
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-04-icone.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-04-icone-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-04-icone.svg",
+      "size_1x": [
+        184,
+        159
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-04-texto",
+      "label": "Estruturas metálicas",
+      "category": "especialidades",
+      "box": [
+        1582,
+        500,
+        1861,
+        629
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-04-texto.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-04-texto-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-04-texto.svg",
+      "size_1x": [
+        267,
+        125
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "especialidade-04-bloco",
+      "label": "Bloco estruturas metálicas",
+      "category": "blocos",
+      "box": [
+        1384,
+        470,
+        1863,
+        644
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\especialidade-04-bloco.png",
+      "png_4x": "02_png_transparente_4x\\especialidade-04-bloco-4x.png",
+      "svg": "03_svg_autocontido\\especialidade-04-bloco.svg",
+      "size_1x": [
+        469,
+        159
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "servicos-faixa-completa",
+      "label": "Faixa completa de serviços",
+      "category": "servicos",
+      "box": [
+        804,
+        668,
+        1864,
+        718
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\servicos-faixa-completa.png",
+      "png_4x": "02_png_transparente_4x\\servicos-faixa-completa-4x.png",
+      "svg": "03_svg_autocontido\\servicos-faixa-completa.svg",
+      "size_1x": [
+        1074,
+        55
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "servico-01-suspensao",
+      "label": "Suspensão",
+      "category": "servicos",
+      "box": [
+        808,
+        671,
+        936,
+        718
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\servico-01-suspensao.png",
+      "png_4x": "02_png_transparente_4x\\servico-01-suspensao-4x.png",
+      "svg": "03_svg_autocontido\\servico-01-suspensao.svg",
+      "size_1x": [
+        141,
+        55
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "servico-02-solda",
+      "label": "Solda",
+      "category": "servicos",
+      "box": [
+        968,
+        671,
+        1041,
+        718
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\servico-02-solda.png",
+      "png_4x": "02_png_transparente_4x\\servico-02-solda-4x.png",
+      "svg": "03_svg_autocontido\\servico-02-solda.svg",
+      "size_1x": [
+        89,
+        50
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "servico-03-preventiva",
+      "label": "Preventiva",
+      "category": "servicos",
+      "box": [
+        1073,
+        671,
+        1200,
+        718
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\servico-03-preventiva.png",
+      "png_4x": "02_png_transparente_4x\\servico-03-preventiva-4x.png",
+      "svg": "03_svg_autocontido\\servico-03-preventiva.svg",
+      "size_1x": [
+        142,
+        49
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "servico-04-freios",
+      "label": "Freios",
+      "category": "servicos",
+      "box": [
+        1231,
+        671,
+        1309,
+        718
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\servico-04-freios.png",
+      "png_4x": "02_png_transparente_4x\\servico-04-freios-4x.png",
+      "svg": "03_svg_autocontido\\servico-04-freios.svg",
+      "size_1x": [
+        92,
+        49
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "servico-05-hidraulica",
+      "label": "Hidráulica",
+      "category": "servicos",
+      "box": [
+        1340,
+        671,
+        1465,
+        718
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\servico-05-hidraulica.png",
+      "png_4x": "02_png_transparente_4x\\servico-05-hidraulica-4x.png",
+      "svg": "03_svg_autocontido\\servico-05-hidraulica.svg",
+      "size_1x": [
+        141,
+        55
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "servico-06-reforma",
+      "label": "Reforma",
+      "category": "servicos",
+      "box": [
+        1495,
+        671,
+        1596,
+        718
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\servico-06-reforma.png",
+      "png_4x": "02_png_transparente_4x\\servico-06-reforma-4x.png",
+      "svg": "03_svg_autocontido\\servico-06-reforma.svg",
+      "size_1x": [
+        116,
+        49
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "servico-07-pintura",
+      "label": "Pintura",
+      "category": "servicos",
+      "box": [
+        1626,
+        671,
+        1718,
+        718
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\servico-07-pintura.png",
+      "png_4x": "02_png_transparente_4x\\servico-07-pintura-4x.png",
+      "svg": "03_svg_autocontido\\servico-07-pintura.svg",
+      "size_1x": [
+        108,
+        49
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "servico-08-embreagem",
+      "label": "Embreagem",
+      "category": "servicos",
+      "box": [
+        1748,
+        671,
+        1877,
+        718
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\servico-08-embreagem.png",
+      "png_4x": "02_png_transparente_4x\\servico-08-embreagem-4x.png",
+      "svg": "03_svg_autocontido\\servico-08-embreagem.svg",
+      "size_1x": [
+        144,
+        50
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "servicos-separador-ponto",
+      "label": "Ponto separador dos serviços",
+      "category": "servicos",
+      "box": [
+        944,
+        671,
+        962,
+        718
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\servicos-separador-ponto.png",
+      "png_4x": "02_png_transparente_4x\\servicos-separador-ponto-4x.png",
+      "svg": "03_svg_autocontido\\servicos-separador-ponto.svg",
+      "size_1x": [
+        32,
+        33
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "divisor-principal-angular",
+      "label": "Divisor principal angular",
+      "category": "divisores",
+      "box": [
+        754,
+        78,
+        806,
+        742
+      ],
+      "mode": "yellow",
+      "png_1x": "01_png_transparente_original\\divisor-principal-angular.png",
+      "png_4x": "02_png_transparente_4x\\divisor-principal-angular-4x.png",
+      "svg": "03_svg_autocontido\\divisor-principal-angular.svg",
+      "size_1x": [
+        58,
+        687
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "divisor-grade-horizontal",
+      "label": "Linha horizontal da grade",
+      "category": "divisores",
+      "box": [
+        824,
+        428,
+        1863,
+        447
+      ],
+      "mode": "yellow",
+      "png_1x": "01_png_transparente_original\\divisor-grade-horizontal.png",
+      "png_4x": "02_png_transparente_4x\\divisor-grade-horizontal-4x.png",
+      "svg": "03_svg_autocontido\\divisor-grade-horizontal.svg",
+      "size_1x": [
+        1050,
+        43
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "divisor-grade-vertical",
+      "label": "Linha vertical da grade",
+      "category": "divisores",
+      "box": [
+        1328,
+        232,
+        1344,
+        643
+      ],
+      "mode": "yellow",
+      "png_1x": "01_png_transparente_original\\divisor-grade-vertical.png",
+      "png_4x": "02_png_transparente_4x\\divisor-grade-vertical-4x.png",
+      "svg": "03_svg_autocontido\\divisor-grade-vertical.svg",
+      "size_1x": [
+        40,
+        421
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "grade-especialidades-completa",
+      "label": "Grade completa de especialidades",
+      "category": "blocos",
+      "box": [
+        824,
+        228,
+        1865,
+        645
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\grade-especialidades-completa.png",
+      "png_4x": "02_png_transparente_4x\\grade-especialidades-completa-4x.png",
+      "svg": "03_svg_autocontido\\grade-especialidades-completa.svg",
+      "size_1x": [
+        1050,
+        422
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "conteudo-direito-completo",
+      "label": "Título, especialidades e serviços",
+      "category": "blocos",
+      "box": [
+        804,
+        108,
+        1870,
+        721
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\conteudo-direito-completo.png",
+      "png_4x": "02_png_transparente_4x\\conteudo-direito-completo-4x.png",
+      "svg": "03_svg_autocontido\\conteudo-direito-completo.svg",
+      "size_1x": [
+        1080,
+        612
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    },
+    {
+      "name": "conteudo-total-sem-fundo",
+      "label": "Todo o conteúdo do banner sem fundo",
+      "category": "blocos",
+      "box": [
+        42,
+        108,
+        1870,
+        721
+      ],
+      "mode": "foreground",
+      "png_1x": "01_png_transparente_original\\conteudo-total-sem-fundo.png",
+      "png_4x": "02_png_transparente_4x\\conteudo-total-sem-fundo-4x.png",
+      "svg": "03_svg_autocontido\\conteudo-total-sem-fundo.svg",
+      "size_1x": [
+        1844,
+        637
+      ],
+      "transparent": true,
+      "provenance": "Recorte literal da imagem-fonte; nenhuma forma, letra ou ícone foi redesenhado."
+    }
+  ],
+  "layout": {
+    "png": "04_montagens_7x1\\ckf-banner-7x1-recortes-originais-recomendado.png",
+    "jpg": "04_montagens_7x1\\ckf-banner-7x1-recortes-originais-recomendado.jpg",
+    "svg": "04_montagens_7x1\\ckf-banner-7x1-recortes-originais-recomendado-escala-1-10.svg",
+    "pixel_size": [
+      7000,
+      1000
+    ],
+    "svg_scale": "1050 x 150 mm (1:10)"
+  }
+}

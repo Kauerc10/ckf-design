@@ -1,0 +1,26 @@
+# Sistema e editores
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.bak
+
+# Arquivos locais e credenciais
+.env
+.env.*
+!.env.example
+
+# Temporários e pacotes gerados
+tmp/
+*.zip
+*.7z
+*.rar
+
+# Repositório independente do site institucional
+10_Projetos_Ativos/2026-08_site-institucional-ckf/
+
+# Clones temporários usados para sincronização
+.github-sync/
