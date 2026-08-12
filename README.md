@@ -89,6 +89,10 @@ git lfs install
 git clone https://github.com/Kauerc10/ckf-design.git
 ```
 
+## Automação
+
+A [verificação do repositório](.github/workflows/repository-check.yml) roda em pull requests e alterações na `main`. Ela confirma os documentos obrigatórios, a configuração de Git LFS, a integridade da referência do banner oficial e a ausência de marcadores de conflito ou segredos versionados.
+
 ## Uso da marca
 
 Os materiais deste repositório pertencem à CKF Manutenção. A visualização pública do código e dos assets não concede permissão para copiar, redistribuir ou usar comercialmente a marca. Consulte [LICENSE.md](LICENSE.md).

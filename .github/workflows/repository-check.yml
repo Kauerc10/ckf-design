@@ -1,0 +1,61 @@
+name: Verificação do repositório
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repository-check-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  repository-check:
+    name: Integridade dos arquivos e da documentação
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Conferir documentação, Git LFS e marcadores de conflito
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_files=(
+            README.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            SECURITY.md
+            SUPPORT.md
+            LICENSE.md
+            docs/REPOSITORY_GUIDE.md
+            .gitattributes
+          )
+
+          for file in "${required_files[@]}"; do
+            test -f "$file" || {
+              echo "::error file=$file::Arquivo obrigatório não encontrado."
+              exit 1
+            }
+          done
+
+          git lfs version
+          git lfs ls-files --all > /dev/null
+          git check-attr filter -- 11_Entregas_Aprovadas/2026_Banner_Fachada_CKF/ckf-manutencao_banner-fachada-oficial.svg |
+            grep -q 'filter: lfs'
+
+          if git grep -n -E '^(<<<<<<<|=======|>>>>>>>)' -- '*.md' '*.yml' '*.yaml' '*.json'; then
+            echo "::error::Foram encontrados marcadores de conflito."
+            exit 1
+          fi
+
+      - name: Procurar segredos versionados
+        uses: gitleaks/gitleaks-action@v2
